@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - YouTube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="website icon" href="yt-images/youtube.png">
+    <link rel="stylesheet" href="yt.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></head>
+
+<body>
+<header id="header">
+    <nav class="main-navbar " id="main-navbar">
+        <div class="left-navbar me-auto " id="left-navbar">
+           <div class="leftnav ms-2 ms-md-4 ms-sm-3  d-flex align-items-center ">
+               <div class="for-i">
+                   <i class="bi bi-list d-none d-xl-block " style="font-size: 25px;"  id="menu"></i>
+               <i class="bi bi-list d-flex d-xl-none " style="font-size: 25px;"  id="menu2"></i>
+               </div>
+                <a href="yt.html" class="navbar-brand ms-3  ms-sm-4  " >
+                   <img src="yt-images/youtube.png" width="30px" alt="Youtube-icon">
+                   <span class="font">YouTube</span><sup class="m-1"  >IN</sup>
+               </a>
+           </div>
+       </div>
+       <div class="middle-navbar  w-25 expand-lg    d-flex align-items-center  " id="cover">
+           <div class="submid d-flex align-items-center ">
+               <span class="bi bi-search  " style="display: none;"></span> 
+           <div class="input-box d-none d-sm-block ">
+               <form action="#" class="d-flex ">
+                   <input type="search" placeholder="Search" id="search">
+               </form>
+           </div>
+       </div>
+       <div class="searchicon drop d-none d-sm-block " >
+               <i class="bi bi-search  "  ></i>
+               <div class="down">
+                   <span>Search</span>
+               </div>
+           </div>
+       <div class="searchicon drop d-sm-none" id="Search-Icon-Open">
+               <i class="bi bi-search  "  ></i>
+               <div class="down">
+                   <span>Search</span>
+               </div>
+           </div>
+       </div>
+          
+      
+       </div>
+       <div class="mic drop me-0 me-sm-auto">
+               <i class="bi bi-mic-fill "></i>
+               <div class="down">
+                  <span> Search With Your Voice</span>
+               </div>
+           </div>
+           
+       </div>
+       <div class="right-navbar me-4 me-md-5" >
+           <div class="icons-nav">
+              <div class="drop">
+               <img src="yt-images/add-video.png" alt="video" width="22px" >
+               <div class="down">
+                   <span>Create</span>
+               </div>
+              </div>
+              <div class="drop">
+               <img src="yt-images/bell.png" alt="video" width="22px">
+               <div class="down">
+                   <span>Notifications</span>
+               </div>
+              </div> 
+               <img src="yt-images/bell.png" alt="video" width="22px" id="settings-toggle">
+                
+               <div class="settings" id="settings">
+                   <div class="channel">
+                       <div class="channel-logo">
+                           <img src="yt-images/yt login icon.jpg" width="40px" height="40px">
+                       </div>
+                       <div class="channel-name">
+                           <span>Worst Gamer</span>
+                           <br>
+                           <span >@dk_daya33</span>
+                           <br>
+                           <a href="#" >View Your Channel</a>
+                       </div>
+                   </div>
+                   <hr>
+                   <div class="setting-bar">
+                   <div class="for-settings">
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Google account </a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Switch account </a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Sign out </a>
+                   </div>
+                   <hr>
+                   <div class="for-settings">
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Youtube Studio </a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Purchases and Memberships</a>
+                   </div>
+                   <hr>
+                   <div class="for-settings">
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Your data in Youtube </a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Appearance: 
+                       <a href="#"><img src="yt-images/home.png" width="25px" id="dark-btn"> dark: 
+                       <a href="#"><img src="yt-images/home.png" width="25px" id="light-btn"> light: 
+                    
+                    </a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Language: English</a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Restricted Mode: Off </a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Location: India </a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Keyboard Shortcuts </a>
+                   </div>
+                   <hr>
+                   <div class="for-settings">
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Settings</a>
+                   </div>
+                   <hr>
+                   <div class="for-settings">
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Help </a>
+                       <a href="#"><img src="yt-images/home.png" width="25px"> Send feedback </a>
+                   </div>
+                   </div>
+               </div>                 
+           </div>
+       </div>  
+     
+   </nav>
+</header>
+
+<!--  -->
+<div class="searchbar-ON" id="searchbar-ON" >
+    <div class="search-toggle-close" id="search-toggle-close">
+        <img src="yt-images/play.png" width="23px" >
+    </div>
+    <div class="search-bar-input">
+        <div class="input-icon-bar">
+            <img src="yt-images/search.png" width="23px">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="search-icon-bar">
+            <img src="yt-images/search.png" width="25px">
+  
+        </div>
+    </div>
+    <div class="search-mic-bar">
+        <img src="yt-images/mic.png" width="18px">
+    </div>
+  </div>
+
+
+<!-- ------------------------------------NAVBAR END_------------------------------ -->
+<div class="sm-mainbar" id="sm-mainbar">
+    <div class="leftnav ms-4   d-flex align-items-center smtop ">
+        <i class="bi bi-list" style="font-size: 25px;"  id="menuthree"></i>
+         <a href="yt.html" class="navbar-brand ms-4    " >
+            <img src="yt-images/youtube.png" width="30px" alt="Youtube-icon">
+            <span class="font">YouTube</span><sup class="m-1"  >IN</sup>
+        </a>
+    </div>
+
+ <div class="sm-sidebar  " id="sm-sidebar">
+   
+    <div class="sm-side">     
+        <div class="homes common-side ">
+            <a href="#" class="actives"><img src="yt-images/home.png" width="20px" >Home</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Shorts</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Subscriptions</a>
+            <a href="#" class="showme" ><img src="yt-images/home.png" width="20px" >You</a>  
+        </div>
+        <hr>
+        <div class="homes common-side you">
+            <span>You ></span>
+            <a href="#"><img src="yt-images/home.png" width="20px">Your channel</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">History</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Playlists</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Your videos</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Watch later</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Liked videos</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Your clips</a>
+         </div>
+        <hr>
+        <div class="homes common-side away">
+            <span>Subscriptions ></span>
+            <a href="#"><img src="yt-images/home.png" width="20px">Tamil Gaming</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">A2D Channel</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Dokku Gamer</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Uncontrolled Gaming</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Worst Gamer</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Village Food Channel</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">NEFFEX</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Mr IG</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Mr.village vaathi</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">NST</a>
+        </div>
+        <hr>
+        <div class="homes common-side away">
+            <span>Explore </span>
+            <a href="#"><img src="yt-images/home.png" width="20px">Trending</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Shopping</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Music</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Movies</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Live</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Gaming</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">News</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Sports</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Courses</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Fashion & Beauty</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Podcasts</a>
+        </div>
+        <hr>
+        <div class="homes common-side away">
+            <span>More from YouTube </span>
+            <a href="#"><img src="yt-images/home.png" width="20px">Youtube Premium</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Youtube Studio</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Youtube Music</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Youtube Kids</a>
+        </div>
+        <hr>
+        <div class="homes common-side away">
+            <a href="#"><img src="yt-images/home.png" width="20px">Settings</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Report history</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Help</a>
+            <a href="#"><img src="yt-images/home.png" width="20px">Send feedback</a>
+        </div>
+        <hr>
+        <div class="footer away">
+           
+            <a href="">About</a>       
+            <a href="">Press</a> 
+            <a href="">Copyright</a>
+            <br> 
+            <a href="">Contact us</a> 
+            <a href="">Advertise</a> 
+            <a href="">Developers</a>
+         
+            <div class="space"></div>
+            <a href="">Terms</a>       
+            <a href="">Privacy</a> 
+            <a href=""> Policy & Safety</a> 
+            <br>
+            <a href="">How YouTube works Test new features</a> 
+            <div class="space"></div>
+            <p>&copy; 2024 Google LLC</p>
+        </div>
+    </div>
+</div> 
+</div>
+
+<!-- ------------------------------SIDE BAR------------------------------ -->
+<div class="display" id="display">
+    <div class="left-sidebar leftalign d-non " id="left-sidebar">
+        <div class="left-side">
+            <div class="homes common-side">
+                <a href="#" class="actives"><img src="yt-images/home.png" width="20px" >Home</a>
+                <a href="#"><img src="yt-images/icons8-youtube-shorts-48.png" width="20px">Shorts</a>
+                <a href="#"><img src="yt-images/gallery.png" width="20px">Subscriptions</a>
+                <a href="#" class="showme" ><img src="yt-images/home.png" width="20px" >You</a>  
+            </div>
+            <hr>
+            <div class="homes common-side you">
+                <h1>You <img src="yt-images/next.png" width="20px" class="ms-3"></h1>
+                <a href="#"><img src="yt-images/avatar.png" width="20px">Your channel</a>
+                <a href="#"><img src="yt-images/history.png" width="20px">History</a>
+                <a href="#"><img src="yt-images/add-list.png" width="20px">Playlists</a>
+                <a href="#"><img src="yt-images/play (1).png" width="20px">Your videos</a>
+                <a href="#"><img src="yt-images/time.png" width="20px">Watch later</a>
+                <a href="#"><img src="yt-images/like.png" width="20px">Liked videos</a>
+             </div>
+            <hr>
+            <div class="homes common-side away round">
+                <h1>Subscriptions </h1>
+                <a href="#"><img src="yt-images/tg-channels4_profile.jpg" >Tamil Gaming</a>
+                <a href="#"><img src="yt-images/a2d channel logo.jpg" >A2D Channel</a>
+                <a href="#"><img src="yt-images/dokku.jpg" >Dokku Gamer</a>
+                <a href="#"><img src="yt-images/uncontro-channels4_profile.jpg" >Uncontrolled Gaming</a>
+                <a href="#"><img src="yt-images/worstgamer.jpg" >Worst Gamer</a>
+                <a href="#"><img src="yt-images/villagecook-channels4_profile.jpg">Village Food Channel</a>
+                <a href="#"><img src="yt-images/neffex.jpg" >NEFFEX</a>
+                <a href="#"><img src="yt-images/alanwalker.jpg" >Alan Walker</a>
+                <a href="#"><img src="yt-images/village vaathi.jpg" >Mr.village vaathi</a>
+                <a href="#"><img src="yt-images/NST.jpg" >NST</a>
+            </div>
+            <hr>
+            <div class="homes common-side away">
+                <h1>Explore </h1>
+                <a href="#"><img src="yt-images/fire.png" width="20px">Trending</a>
+                <a href="#"><img src="yt-images/product.png" width="20px">Shopping</a>
+                <a href="#"><img src="yt-images/music.png" width="20px">Music</a>
+                <a href="#"><img src="yt-images/cinema.png" width="20px">Movies</a>
+                <a href="#"><img src="yt-images/live.png" width="20px">Live</a>
+                <a href="#"><img src="yt-images/gamepad.png" width="20px">Gaming</a>
+                <a href="#"><img src="yt-images/newspaper.png" width="20px">News</a>
+                <a href="#"><img src="yt-images/trophy.png" width="20px">Sports</a>
+                <a href="#"><img src="yt-images/light-bulb.png" width="20px">Courses</a>
+                <a href="#"><img src="yt-images/magazine.png" width="20px">Fashion & Beauty</a>
+                <a href="#"><img src="yt-images/podcast.png" width="20px">Podcasts</a>
+            </div>
+            <hr>
+            <div class="homes common-side away">
+                <h1>More from YouTube </h1>
+                <a href="#"><img src="yt-images/youtube.png" width="20px">Youtube Premium</a>
+                <a href="#"><img src="yt-images/icons8-youtube-studio-48.png" width="20px">Youtube Studio</a>
+                <a href="#"><img src="yt-images/icons8-youtube-music-48.png" width="20px">Youtube Music</a>
+                <a href="#"><img src="yt-images/icons8-youtube-94.png" width="20px">Youtube Kids</a>
+            </div>
+            <hr>
+            <div class="homes common-side away">
+                <a href="#"><img src="yt-images/settings.png" width="20px">Settings</a>
+                <a href="#"><img src="yt-images/flags.png" width="20px">Report history</a>
+                <a href="#"><img src="yt-images/question.png" width="20px">Help</a>
+                <a href="#"><img src="yt-images/chat-help.png" width="20px">Send feedback</a>
+            </div>
+            <hr>
+            <div class="footer away">
+               
+                <a href="">About</a>       
+                <a href="">Press</a> 
+                <a href="">Copyright</a>
+                <br> 
+                <a href="">Contact us</a> 
+                <a href="">Advertise</a> <br>
+                <a href="">Developers</a>
+             
+                <div class="space"></div>
+                <a href="">Terms</a>       
+                <a href="">Privacy</a> 
+                <a href=""> Policy & Safety</a> 
+                <br>
+                <a href="">How YouTube works Test new features</a> 
+                <div class="space"></div>
+                <p>&copy; 2024 Google LLC</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ---------------------------------Content Start------------------------------- -->
+    
+    <div class="videos ">
+        <div class="set-h">
+
+        <!-- <div class="video-navbar">
+            <div class="nav-icon"><i id="left"><</i></div>
+            <div class="nav-tab">
+            <a href="#"  class="video-active tab">All</a>
+            <a href="#" class="tab">Gaming</a>
+            <a href="#" class="tab">Live</a>
+            <a href="#" class="tab">Music</a>
+            <a href="#" class="tab">HTML</a>
+            <a href="#" class="tab">Source code</a>
+            <a href="#" class="tab">News</a>
+            <a href="#" class="tab">Mixes</a>
+            <a href="#" class="tab">Science fiction</a>
+            <a href="#" class="tab">Graphic design</a>
+            <a href="#" class="tab">Masala films</a>
+            <a href="#" class="tab">Computers</a>
+            <a href="#" class="tab">Trailers</a>
+            <a href="#" class="tab">Trailers</a>
+            <a href="#" class="tab">Trailers</a>
+            <a href="#" class="tab">Trailers</a>
+            <a href="#" class="tab">Trailers</a>
+            <a href="#" class="tab">Trailers</a>
+            <a href="#" class="tab">Trailers</a>
+            <a href="#" class="tab">Trailers</a>
+        </div>
+        <div class="nav-icon"><i id="right">></i></div>
+        </div> -->
+        
+
+        <div class="youtube-videos w-100">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3    m-1 ">
+                <div class="for-sm">
+                <div class="col sm">
+
+                    <a href="yt player.html" id="video-toggle"><img src="video-img/a2d.webp "  
+                        class="img-fluid d-flex justify-content-center"></a>
+                        <div class="watchlater">
+                            <img src="/video-img/time-five-regular-24.png" >
+                            <div class="watch-hover">
+                                <p>Watch later</p>
+                            </div>
+                        </div>
+                        <div class="watchlater-two">
+                            <img src="video-img/playlist-solid-24.png" >
+                            <div class="watch-hover-two">
+                                <p>Add to Queue</p>
+                            </div>
+                        </div>
+                    <div class="content-sub d-sm-flex justify-content-center">
+                        <div class="align  d-flex mt-2 ">
+                            <img src="yt-images/yt login icon.jpg   "  class="img-fluid logo" width="20px" >
+                            <span class="ms-2 ">
+                                "Vadakku Nanbar-ராக" மாறிய - PC Doc | Learning Hindi in VR <br>
+                                <p class="mt-2 subfont"> A2D Channel <br>
+                                23k views <sup>.</sup> 13 minutes ago</p>                         
+                                </span>
+                        </div>                                         
+                    </div>
+                </div> 
+            </div>                                           
+                <div class="col sm">
+                    <a href="#"><img src="video-img/hq720.webp "  class="img-fluid d-flex justify-content-center"></a>
+
+                    <div class="content-sub d-sm-flex justify-content-center">
+                        <div class="align  d-flex mt-2 ">
+                            <img src="yt-images/yt login icon.jpg   "  class="img-fluid logo" width="20px">
+                            <span class="ms-2 ">
+                                "Vadakku Nanbar-ராக" மாறிய - PC Doc | Learning Hindi in VR <br>
+                                <p class="mt-2 subfont"> A2D Channel <br>
+                                23k views <sup>.</sup> 13 minutes ago</p>                         
+                                </span>
+                        </div>                                         
+                    </div>
+                </div>                                            
+                <div class="col sm">
+                    <a href="#"><img src="video-img/a2d.webp "  class="img-fluid d-flex justify-content-center"></a>
+                    <div class="content-sub d-sm-flex justify-content-center">
+                        <div class="align  d-flex mt-2 ">
+                            <img src="yt-images/yt login icon.jpg   "  class="img-fluid logo" width="20px">
+                            <span class="ms-2 ">
+                                "Vadakku Nanbar-ராக" மாறிய - PC Doc | Learning Hindi in VR <br>
+                                <p class="mt-2 subfont"> A2D Channel <br>
+                                23k views <sup>.</sup> 13 minutes ago</p>                         
+                                </span>
+                        </div>                                         
+                    </div>
+                </div>                                            
+                <div class="col sm">
+                    <a href="#"><img src="video-img/a2d.webp "  class="img-fluid d-flex justify-content-center"></a>
+                    <div class="content-sub d-sm-flex justify-content-center">
+                        <div class="align  d-flex mt-2 ">
+                            <img src="yt-images/yt login icon.jpg   "  class="img-fluid logo" width="20px">
+                            <span class="ms-2 ">
+                                "Vadakku Nanbar-ராக" மாறிய - PC Doc | Learning Hindi in VR <br>
+                                <p class="mt-2 subfont"> A2D Channel <br>
+                                23k views <sup>.</sup> 13 minutes ago</p>                         
+                                </span>
+                        </div>                                         
+                    </div>
+                </div>                                            
+                <div class="col sm">
+                    <a href="#"><img src="video-img/a2d.webp "  class="img-fluid d-flex justify-content-center"></a>
+                    <div class="content-sub d-sm-flex justify-content-center">
+                        <div class="align  d-flex mt-2 ">
+                            <img src="yt-images/yt login icon.jpg   "  class="img-fluid logo" width="20px">
+                            <span class="ms-2 ">
+                                "Vadakku Nanbar-ராக" மாறிய - PC Doc | Learning Hindi in VR <br>
+                                <p class="mt-2 subfont"> A2D Channel <br>
+                                23k views <sup>.</sup> 13 minutes ago</p>                         
+                                </span>
+                        </div>                                         
+                    </div>
+                </div>                                            
+                <div class="col sm">
+                    <a href="#"><img src="video-img/a2d.webp "  class="img-fluid d-flex justify-content-center"></a>
+                    <div class="content-sub d-sm-flex justify-content-center">
+                        <div class="align  d-flex mt-2 ">
+                            <img src="yt-images/yt login icon.jpg   "  class="img-fluid logo" width="20px">
+                            <span class="ms-2 ">
+                                "Vadakku Nanbar-ராக" மாறிய - PC Doc | Learning Hindi in VR <br>
+                                <p class="mt-2 subfont"> A2D Channel <br>
+                                23k views <sup>.</sup> 13 minutes ago</p>                         
+                                </span>
+                        </div>                                         
+                    </div>
+                </div>                                            
+            </div>
+        </div>
+    
+    <!-- -------------------------------Shorts----------------------- -->
+
+    <div class="short-btn">
+        <span class="undo" id="undo-btn">Shelf will be hidden for 30 days <button class="ms-4 " id="short-open">Undo</button></span>
+
+    </div>
+    <div class="shorts  " id="shorts">
+        <div class="short d-flex align-items-center">
+            <span class=" short"><img src="yt-images/home.png" width="20px" class="me-3">Shorts</span>
+        <span id="short-cancel"><img src="yt-images/fire.png" width="20px"></span>
+        </div>
+        <div class="row short-videos
+          row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5
+          g-2 g-md-3 px-3 px-sm-0 ">
+            <div class="col ms-sm-auto">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+            <div class="col me-sm-auto ">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+            <div class="col d-none d-md-block">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+            <div class="col d-none d-xl-block">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid ">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="row short-videos
+          row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5
+          g-2 g-md-3 px-3 px-sm-0 " id="bringit">
+            <div class="col ms-sm-auto">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+            <div class="col me-sm-auto ">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+            <div class="col d-none d-md-block">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+            <div class="col d-none d-xl-block">
+                <img src="video-img/tg shorts.jpeg"  class="img-fluid ">
+                <div class="shorts-sub">
+                    <span>Prem bro Unique Jokes 😂♥️ #tamilgaming #shorts</span>
+                    <p>300k Views</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="show-more " id="show-more">
+        <hr>
+        <span id="show" >Show More > </span>
+        <span id="close_shorts" class="closeshort " style="display: none;">Show Less > </span>
+        <hr>
+    </div> 
+
+    
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<!-- ----------------------------video player------------- -->
+
+
+
+
+
+
+<script src="yt.js"></script>
+<!-- ----------------------------------------------------------JAVASCRIPT ------------------------------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+   var searchbar = document.getElementById("search");
+   var cover = document.getElementById("cover");
+   var show = document.getElementById("show");
+   
+   searchbar.onclick = function(){
+    cover.classList.toggle("incover")
+   }
+   var menuicon = document.getElementById("menu");
+   var left_sidebar = document.getElementById("left-sidebar");
+
+   menuicon.onclick = function(){
+    left_sidebar.classList.toggle("left_sidebar");
+   }
+   var settings_toggle = document.getElementById('settings-toggle')
+   var settings = document.getElementById('settings')
+   settings_toggle.onclick = function(){
+    settings.classList.toggle("set-display");
+   }
+    
+  
+    
+    document.addEventListener("DOMContentLoaded", function() {
+    const openBtn = document.getElementById('menu2');
+    const closeBtn = document.getElementById('menuthree');
+    const sidebar = document.getElementById('sm-mainbar');
+    const display = document.getElementById('display');
+    var main_navbar = document.getElementById('main-navbar');
+    
+    openBtn.addEventListener('click', function() {
+        sidebar.style.left = '0';
+        display.style.opacity = '0.3';
+        main_navbar.style.opacity = '0.3';
+    });
+
+    closeBtn.addEventListener('click', function() {
+        sidebar.style.left = '-250px';
+        display.style.opacity = ' 1';
+        main_navbar.style.opacity = ' 1';
+    });
+    
+
+    const shorts = document.getElementById('shorts');
+    const short_cancel = document.getElementById('short-cancel');
+    const short_open = document.getElementById('short-open');
+    const undo_btn = document.getElementById('undo-btn');
+    const show_more = document.getElementById('show-more');
+
+    short_open.addEventListener('click', function() {
+        shorts.style.display = 'block';
+        undo_btn.style.display = 'none';
+        show_more.style.display = 'flex';
+    });
+    short_cancel.addEventListener('click', function() {
+        shorts.style.display = 'none ';
+        undo_btn.style.display = 'block';
+        show_more.style.display = 'none';
+
+    });
+    const bringit = document.getElementById('bringit');
+    const show_shorts = document.getElementById('show');
+    const close_shorts = document.getElementById('close_shorts');
+    show_shorts.addEventListener('click', function() {
+        bringit.style.display = 'flex ';
+        show_shorts.style.display = 'none ';
+        close_shorts.style.display = 'flex ';
+    });
+    close_shorts.addEventListener('click', function() {
+        bringit.style.display = 'none ';
+        show_shorts.style.display = 'flex  ';
+        close_shorts.style.display = 'none ';
+
+    });
+    const video_toggle = document.getElementById('video-toggle');
+    const video_player = document.getElementById('video-player');
+    const disc = document.getElementById('display');
+    var body = document.querySelector('body');
+  
+    video_toggle.addEventListener('click', function() {
+        disc.style.display = 'none ';
+        video_player.style.display = 'flex ';
+        body.style.overflowY = 'scroll';
+    });
+   
+    const search_toggle_open = document.getElementById('Search-Icon-Open');
+    const search_toggle_close = document.getElementById('search-toggle-close');
+    const searchbar_ON = document.getElementById('searchbar-ON');
+    const header = document.getElementById('header');
+   search_toggle_open.addEventListener('click', function() {
+        header.style.display = 'none';
+        searchbar_ON.style.display = 'flex';
+       
+    });
+   
+   search_toggle_close.addEventListener('click', function() {
+        header.style.display = 'block';
+        searchbar_ON.style.display = 'none';
+       
+    });
+   
+    const Dark = document.getElementById('dark-btn');
+    const Light = document.getElementById('light-btn');
+   Dark.addEventListener('click', function() {
+        Dark.style.color = "white";
+        body.style.background = "black";
+       
+    });
+   
+   Light.addEventListener('click', function() {
+       
+       
+    });
+   
+ 
+});
+
+  
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
